@@ -12,12 +12,14 @@ import {
 //change each item in the homepage dynamically
 //called from directory.component
 //uses react router dom to add to the history so the user can go back and forward
-const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => (
+export const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => (
   <MenuItemContainer
+    id="MenuItemContainer"
     size={size}
     onClick={() => history.push(`${match.url}${linkUrl}`)}
   >
     <BackgroundImageContainer
+      id="BackgroundImageContainer"
       className='background-image'
       imageUrl={imageUrl}
     />

@@ -17,7 +17,7 @@ import {
 //header shows on every page
 //pressing logo take you to main page
 //changes sign in button if already signed in
-const Header = ({ currentUser, hidden, signOutStart }) => (
+export const Header = ({ currentUser, hidden, signOutStart }) => (
   <HeaderContainer>
     <LogoContainer to='/'>
       <Logo className='logo' />
@@ -26,11 +26,11 @@ const Header = ({ currentUser, hidden, signOutStart }) => (
       <OptionLink to='/shop'>SHOP</OptionLink>
       <OptionLink to='/contact'>CONTACT</OptionLink>
       {currentUser ? (
-        <OptionLink as='div' onClick={signOutStart}>
+        <OptionLink id = "s" as='div' onClick={signOutStart}>
           SIGN OUT
         </OptionLink>
       ) : (
-        <OptionLink to='/signin'>SIGN IN</OptionLink>
+        <OptionLink id = "s" to='/signin'>SIGN IN</OptionLink>
       )}
       <CartIcon />
     </OptionsContainer>

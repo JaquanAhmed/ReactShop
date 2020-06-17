@@ -10,9 +10,9 @@ import {
 } from './collection-preview.styles';
 
 //controls the previews of the items shown in the shop
-const CollectionPreview = ({ title, items, history, match, routeName }) => (
+export const CollectionPreview = ({ title, items, history, match, routeName }) => (
   <CollectionPreviewContainer>
-    <TitleContainer onClick={() => history.push(`${match.path}/${routeName}`)}>
+    <TitleContainer id = "tc" onClick={() => history.push(`${match.path}/${routeName}`)}>
       {title.toUpperCase()}
     </TitleContainer>
     <PreviewContainer>

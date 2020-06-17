@@ -13,17 +13,17 @@ import {
 } from './collection-styles.styles';
 
 //get data for each item in the shop page
-const CollectionItem = ({ item, addItem }) => {
+export const CollectionItem = ({ item, addItem }) => {
   const { name, price, imageUrl } = item;
 
   return (
     <CollectionItemContainer>
-      <BackgroundImage className='image' imageUrl={imageUrl} />
+      <BackgroundImage id = "bi" className='image' imageUrl={imageUrl} />
       <CollectionFooterContainer>
-        <NameContainer>{name}</NameContainer>
-        <PriceContainer>{price}</PriceContainer>
+        <NameContainer id = "nc">{name}</NameContainer>
+        <PriceContainer id = "pc">{price}</PriceContainer>
       </CollectionFooterContainer>
-      <AddButton onClick={() => addItem(item)} inverted>
+      <AddButton id = "ab" onClick={() => addItem(item)} inverted>
         Add to cart
       </AddButton>
     </CollectionItemContainer>

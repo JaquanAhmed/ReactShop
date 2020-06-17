@@ -8,7 +8,7 @@ import { DirectoryMenuContainer } from './directory.styles';
 //called from homepage.component
 //pass values to menu item
 //othersectionprops where the id matches the id inputed
-const Directory = ({ sections }) => (
+export const Directory = ({ sections }) => (
   <DirectoryMenuContainer>
     {sections.map(({ id, ...otherSectionProps }) => (
       <MenuItem key={id} {...otherSectionProps} />
