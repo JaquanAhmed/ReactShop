@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ReactShop/static/css/main.e836be36.chunk.css",
+    "main.js": "/ReactShop/static/js/main.059b1cc1.chunk.js",
+    "main.js.map": "/ReactShop/static/js/main.059b1cc1.chunk.js.map",
+    "runtime-main.js": "/ReactShop/static/js/runtime-main.71ff193c.js",
+    "runtime-main.js.map": "/ReactShop/static/js/runtime-main.71ff193c.js.map",
+    "static/js/2.72f07810.chunk.js": "/ReactShop/static/js/2.72f07810.chunk.js",
+    "static/js/2.72f07810.chunk.js.map": "/ReactShop/static/js/2.72f07810.chunk.js.map",
+    "index.html": "/ReactShop/index.html",
+    "precache-manifest.99ec6876200c55ff612449b50757dbc2.js": "/ReactShop/precache-manifest.99ec6876200c55ff612449b50757dbc2.js",
+    "service-worker.js": "/ReactShop/service-worker.js",
+    "static/css/main.e836be36.chunk.css.map": "/ReactShop/static/css/main.e836be36.chunk.css.map",
+    "static/js/2.72f07810.chunk.js.LICENSE.txt": "/ReactShop/static/js/2.72f07810.chunk.js.LICENSE.txt",
+    "static/media/crown.ed28accb.svg": "/ReactShop/static/media/crown.ed28accb.svg",
+    "static/media/shopping-bag.30f07071.svg": "/ReactShop/static/media/shopping-bag.30f07071.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71ff193c.js",
+    "static/js/2.72f07810.chunk.js",
+    "static/css/main.e836be36.chunk.css",
+    "static/js/main.059b1cc1.chunk.js"
+  ]
+}
