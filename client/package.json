@@ -2,8 +2,7 @@
   "name": "react-shop",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://jaquan.co.uk/ReactShop",
-  //"proxy": "http://localhost:5000",
+  "proxy": "http://localhost:5000",
   "dependencies": {
     "axios": "0.19.0",
     "firebase": "^6.0.2",
