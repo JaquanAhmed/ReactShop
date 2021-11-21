@@ -6,7 +6,6 @@ import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 import { selectCartHidden } from '../../redux/cart/cart.selectors';
 import { selectCurrentUser } from '../../redux/user/user.selectors';
 import { signOutStart } from '../../redux/user/user.actions';
-import { ReactComponent as Logo } from '../../assets/crown.svg';
 import {
   HeaderContainer,
   LogoContainer,
@@ -20,7 +19,7 @@ import {
 export const Header = ({ currentUser, hidden, signOutStart }) => (
   <HeaderContainer>
     <LogoContainer to='/'>
-      <Logo className='logo' />
+      <img src = "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" />
     </LogoContainer>
     <OptionsContainer>
       <OptionLink to='/shop'>SHOP</OptionLink>
